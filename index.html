@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+  <title> Web Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapise.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">                                           
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;                                                                 
+    }
+
+    body {
+            background-color: rgb(10, 1, 8);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+     
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+      ;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(139, 189, 182)
+    }
+
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 60px 84px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 140px 0;
+
+
+    }
+
+    .firstSection>div {
+      width: 30%;
+
+    }
+
+    .leftSection {
+
+      font-size: 2.5rem;
+      margin: 70px 0;
+
+    }
+
+    .leftSection.btn {
+      padding: 50px 0;
+    }
+
+    .leftSection .btn {
+      padding: 12px;
+      background: #050741;
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+
+    }
+
+    .rightSection img {
+      width: 80%;
+      MARGIN: 50px 0;
+
+    }
+
+    .purple {
+      color: rgb(150, 103, 194);
+
+    }
+
+    .text-gray {
+      color: rgb(160, 146, 146);
+    }
+
+    #element {
+      color: rgb(170, 107, 228);
+
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondSection h1 {
+      font-size: 1.7rem;
+    }
+
+    .secondSection .box {
+      background: white;
+      width: 65vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 120px;
+
+    }
+
+    .image-top {
+      width: 50px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+    }
+
+    footer {
+      background-color: rgb(90, 37, 90);
+      height: 233px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 132px;
+      justify-content: space-evenly;
+    }
+
+    .footer {
+      list-style: none;
+    }
+
+    .footer>div {
+      width: 223px;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      color: rgb(184, 167, 167);
+      padding: 18px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"> Personal Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hello, i am <span class="purple"></span>
+
+        <div>and I am a passionate</div>
+        <div>web Developer</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn">Download Resume</button>
+          <button class="btn">visit Github</button>
+        </div>
+      </div>
+      </div>
+      <div class="rightSection">
+        <img src="dev.png" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-gray"> what i have done so far</span>
+      <h1>work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="web.png" alt="">
+          <div class="vertical-title">
+            HTML Developer
+          </div>
+          <div class="vertical-desc">
+            
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="web.png" alt="">
+          <div class="vertical-title">
+            software Developer 
+          </div>
+
+          <div class="vertical-desc">
+            
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="web.png" alt="">
+          <div class="vertical-title">
+            front end Developer 
+          </div>
+          <div class="vertical-desc">
+           
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="web.png" alt="">
+          <div class="vertical-title">
+            full stack Developer 
+          </div>
+          <div class="vertical-desc">
+            
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="web.png" alt="">
+          <div class="vertical-title">
+            block-chain Developer 
+          </div>
+          <div class="vertical-desc">
+            
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Bhagyashree's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+
+
+
+
+
+        </ul>
+      </div>
+      <div class="footer-third">
+
+      </div>
+      <div class="footer-fourth">
+      </div>
+    </div>
+    <div class="footer-rights">
+      Copyright &#169;bhagyashreesportfolio.com | All rights reserved
+
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web</i> Devloper', 'video Editor.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</body>
+
+</html>
